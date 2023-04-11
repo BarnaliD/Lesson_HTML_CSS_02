@@ -1,0 +1,50 @@
+/*comment for CSS*/
+/*Remove extra space in body*/
+body{
+    margin:0
+}
+
+/*Footer in bottom ,always*/
+main{
+    flex:1;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana;
+}
+
+/*Footer in bottom stop*/
+.my-class{
+    color: greenyellow;
+
+}
+#my-id{
+    color:purple;
+}
+
+.second.class{
+    color: #0000FF;
+}
+header{
+    background-color: aquamarine;
+    padding: 20px;
+}
+header h1{
+    font-family: Verdana;
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+header nav{
+    margin-left: 2px;
+}
+header nav a{
+    display: inline-block;
+    padding: 0 15px;
+    color: black;
+    text-decoration:none ;
+    font-weight: bold;
+}
